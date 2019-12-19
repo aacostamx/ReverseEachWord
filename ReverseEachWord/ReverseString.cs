@@ -41,7 +41,7 @@ namespace ReverseEachWord
             for (int i = 0; i < array.Length; i++)
             {
                 string reversedWord = new string(array[i].Reverse().ToArray());
-                result += i != (array.Length - 1) ? reversedWord + " " : reversedWord ;
+                result += i != (array.Length - 1) ? reversedWord + " " : reversedWord;
             }
 
             return result;
